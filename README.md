@@ -22,19 +22,22 @@ python3 -m pip install -r requirements.txt
 jupyter lab
 ```
 
-Open `analysis.ipynb` and run all cells top-to-bottom. The notebook expects the
+Open `notebooks/analysis.ipynb` and run all cells top-to-bottom. The notebook expects the
 data file at `data/Yellow_Taxi_Assignment.csv` relative to the project root,
 which is the working directory Jupyter uses when launched from here.
 
 ## Pre-rendered reports
 
-If you prefer not to run the notebooks, pre-rendered HTML versions are available
-in the `reports/` directory and can be opened directly in any browser:
+**No need to run code — view the analysis directly:**
+
+The pre-rendered HTML reports in the `reports/` directory can be opened directly in any browser:
 
 | Report | Contents |
 |--------|----------|
-| `reports/analysis.html` | Final deliverable — management summary + 13 analysis sections with charts |
-| `reports/exploration.html` | EDA roughwork — schema inspection, dirty-data audit, year distribution |
+| [`reports/analysis.html`](reports/analysis.html) | Final deliverable — management summary + 13 analysis sections with charts |
+| [`reports/exploration.html`](reports/exploration.html) | EDA roughwork — schema inspection, dirty-data audit, year distribution |
+
+Simply click the link above or download the HTML file and open in your browser. No setup required.
 
 ## Files
 
@@ -44,11 +47,12 @@ in the `reports/` directory and can be opened directly in any browser:
 | `notebooks/exploration.ipynb` | Earlier EDA roughwork — source notebook |
 | `reports/analysis.html` | Pre-rendered HTML export of the analysis notebook |
 | `reports/exploration.html` | Pre-rendered HTML export of the exploration notebook |
-| `data/Yellow_Taxi_Assignment.csv` | Source data — not committed, must be placed here manually |
+| `data/Yellow_Taxi_Assignment.csv` | Source data — not committed (add manually from TLC data source) |
 | `pyproject.toml` | Project metadata and direct dependencies |
 | `uv.lock` | Locked dependency tree for exact reproducibility |
 | `.python-version` | Python version pin (3.12) read by uv |
 | `requirements.txt` | Pip-compatible export for non-uv environments |
+| `.gitignore` | Excludes CSV data, Jupyter cache, and OS files |
 
 ## Dataset
 
