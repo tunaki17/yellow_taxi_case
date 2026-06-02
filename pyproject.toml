@@ -1,7 +1,7 @@
 [project]
 name = "lynx"
 version = "0.1.0"
-description = "Add your description here"
+description = "NYC Yellow Taxi trip analysis — stratified 2018–2023 sample, Polars + DuckDB"
 requires-python = ">=3.12"
 dependencies = [
     "duckdb>=1.5.3",

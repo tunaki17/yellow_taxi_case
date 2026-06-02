@@ -26,12 +26,24 @@ Open `analysis.ipynb` and run all cells top-to-bottom. The notebook expects the
 data file at `data/Yellow_Taxi_Assignment.csv` relative to the project root,
 which is the working directory Jupyter uses when launched from here.
 
+## Pre-rendered reports
+
+If you prefer not to run the notebooks, pre-rendered HTML versions are available
+in the `reports/` directory and can be opened directly in any browser:
+
+| Report | Contents |
+|--------|----------|
+| `reports/analysis.html` | Final deliverable — management summary + 13 analysis sections with charts |
+| `reports/exploration.html` | EDA roughwork — schema inspection, dirty-data audit, year distribution |
+
 ## Files
 
 | File | Purpose |
 |------|---------|
-| `notebooks/analysis.ipynb` | Final deliverable — management summary + 13 analysis sections with charts |
-| `notebooks/exploration.ipynb` | Earlier EDA roughwork (schema, dirty-data audit, year distribution) |
+| `notebooks/analysis.ipynb` | Final deliverable — source notebook |
+| `notebooks/exploration.ipynb` | Earlier EDA roughwork — source notebook |
+| `reports/analysis.html` | Pre-rendered HTML export of the analysis notebook |
+| `reports/exploration.html` | Pre-rendered HTML export of the exploration notebook |
 | `data/Yellow_Taxi_Assignment.csv` | Source data — not committed, must be placed here manually |
 | `pyproject.toml` | Project metadata and direct dependencies |
 | `uv.lock` | Locked dependency tree for exact reproducibility |
