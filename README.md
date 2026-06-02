@@ -32,7 +32,6 @@ which is the working directory Jupyter uses when launched from here.
 |------|---------|
 | `notebooks/analysis.ipynb` | Final deliverable — management summary + 13 analysis sections with charts |
 | `notebooks/exploration.ipynb` | Earlier EDA roughwork (schema, dirty-data audit, year distribution) |
-| `scripts/main.py` | Project entry point (uv default) |
 | `data/Yellow_Taxi_Assignment.csv` | Source data — not committed, must be placed here manually |
 | `pyproject.toml` | Project metadata and direct dependencies |
 | `uv.lock` | Locked dependency tree for exact reproducibility |
