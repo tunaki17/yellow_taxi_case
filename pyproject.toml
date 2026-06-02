@@ -1,5 +1,5 @@
 [project]
-name = "lynx"
+name = "yellow_taxi_case"
 version = "0.1.0"
 description = "NYC Yellow Taxi trip analysis — stratified 2018–2023 sample, Polars + DuckDB"
 requires-python = ">=3.12"
